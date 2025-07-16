@@ -1,6 +1,5 @@
 "use client";
 
-import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export function Header() {
@@ -55,9 +54,6 @@ export function Header() {
           <a href="#experience" className="hover:underline">
             Experience
           </a>
-          <Link to="/blog" className="hover:underline">
-            Blog
-          </Link>
           <a href="#contact" className="hover:underline">
             Contact
           </a>
